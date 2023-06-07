@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Automatic Receipt Analyzer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="equip/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="equip/css/animate.css">
+    
+    <link rel="stylesheet" href="equip/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="equip/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="equip/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="equip/css/aos.css">
+
+    <link rel="stylesheet" href="equip/css/ionicons.min.css">
+		
+		<link rel="stylesheet" href="equip/css/bootstrap-datetimepicker.min.css">
+		<link rel="stylesheet" href="equip/css/nouislider.css">
+
+    
+    <link rel="stylesheet" href="equip/css/flaticon.css">
+    <link rel="stylesheet" href="equip/css/icomoon.css">
+    <link rel="stylesheet" href="equip/css/style.css">
+  </head>
+  <body>
+		
+  <div class="main-section">
+
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <!-- <div class="collapse navbar-collapse" id="ftco-nav"> 
+	        <ul class="navbar-nav ml-auto">
+	        	<li class="dropdown nav-item">
+              <a href="#" class="dropdown-toggle nav-link icon d-flex align-items-center" data-toggle="dropdown">
+                <i class="ion-ios-apps mr-2"></i>
+                Components
+                <b class="caret"></b>
+              </a>
+              <div class="dropdown-menu dropdown-menu-left">
+                <a href="#" class="dropdown-item"><i class="ion-ios-apps mr-2"></i> All Components</a>
+                <a href="#" class="dropdown-item"><i class="ion-ios-document mr-2"></i> Documentation</a>
+              </div>
+            </li>
+	          <li class="nav-item cta"><a href="#" class="nav-link icon d-flex align-items-center"><i class="ion-ios-cloud-download mr-2"></i> Download</a></li>
+	        </ul>
+	      </div>-->
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+  	<section class="hero-wrap" style="background-image: url(equip/images/back_1.jpeg);" data-stellar-background-ratio="0.5">
+  		<div class="overlay"></div>
+  		<div class="container">
+  			<div class="row description align-items-center justify-content-center">
+  				<div class="col-md-12 lg-12 text-center">
+  					<div class="text">
+  						<h2>Automatic Receipt Analyzer</h2>
+              <h4 class="mb-5">Plan your expense.</h4>
+              <form action="analyze1.php" method="post" target="demo" enctype="multipart/form-data">
+                <!-- <button type="button" class="btn btn-info btn-round px-5 py-4 mb-2" value = "submit" name = "submit">Choose File</button> -->
+                        <input type="file" placeholder="choose your pdf"  class="form-control" name="attachment"  title="choose your pdf" required="required" aria-required="true">
+                <br><br>
+                        
+                      
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="mouse">
+      <a href="#" class="mouse-icon">
+        <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+      </a>
+    </div> -->
+      
+      <div class="row text-center">
+        <div class="col-lg-6">
+                            
+            <button type="submit" value="submit" name="submit" class="submit btn btn-round btn-info px-5 py-4 mb-2" >
+              <i class="ion-ios-cloud-download mr-2"></i>Upload File</button>
+            </form>
+        </div>
+
+      <div class="col-lg-6">
+        <form  action="try4.php" target="demo2" method="post" enctype="multipart/form-data">
+          <button type="submit" class="submit btn btn-round btn-light px-2 py-4 mb-2" style="width:120px" value = "extract" name = "extract" onclick="callextract()">
+            Extract</button>
+          <button type="submit" class="submit btn btn-round btn-light px-2 py-4 mb-2" style="width:120px" value = "trainmodel" name = "trainmodel" onclick="calltrain()">
+            Train Model</button>
+          <button type="submit" class="submit btn btn-round btn-light px-2 py-4 mb-2" style="width:120px" value = "testmodel" name = "testmodel" onclick="calltest()">
+          Test Model</button>
+          <br /> 
+          </form>
+      </div>
+
+
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-6">
+        <iframe name="demo" src="" height="500px">
+        </iframe>
+      </div>
+      <div class="col-lg-6">
+        <iframe name="demo2" src=""  height="500px">
+        </iframe>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-12">
+      <form  action="ReadData.php" target="demo3" method="post" enctype="multipart/form-data">
+        <button type="submit" class="submit btn btn-primary btn-round px-5 py-4 mb-2" value = "graph" name = "graph" onclick="callgraph()">
+          <i class="ion-ios-cloud-download mr-2"></i>Generate Report
+        </button>
+      </form>
+    </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-12">
+        <iframe name="demo3" src="" width="60%" height="415px">
+        </iframe>
+      </div>
+    </div>  
+  </div>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="equip/js/jquery.min.js"></script>
+  <script src="equip/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="equip/js/popper.min.js"></script>
+  <script src="equip/js/bootstrap.min.js"></script>
+  <script src="equip/js/jquery.easing.1.3.js"></script>
+  <script src="equip/js/jquery.waypoints.min.js"></script>
+  <script src="equip/js/jquery.stellar.min.js"></script>
+  <script src="equip/js/owl.carousel.min.js"></script>
+  <script src="equip/js/jquery.magnific-popup.min.js"></script>
+  <script src="equip/js/aos.js"></script>
+
+  <script src="equip/js/nouislider.min.js"></script>
+  <script src="equip/js/moment-with-locales.min.js"></script>
+  <script src="equip/js/bootstrap-datetimepicker.min.js"></script>
+  <script src="equip/js/main.js"></script>
+    
+  </body>
+</html>
