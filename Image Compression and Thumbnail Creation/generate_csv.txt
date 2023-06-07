@@ -1,0 +1,4 @@
+this script is used to save a query(used for report) in csv file.
+the generated csv file is emailed to recipent.
+use phpmailer to add attachement
+use fputcsv to add each array in csv file
