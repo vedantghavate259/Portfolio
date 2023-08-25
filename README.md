@@ -17,6 +17,7 @@
 - An identified pattern of increase in mental well-being facilities leads to an increase in the mindfulness of the people and results in lower hate crime.
 - Identified states with a high occurrence of specific motivation for the hate crime.
 - Skills: Research · Big Data AnalyticsSkills: Research · Big Data Analytics
+- [Youtube](https://www.youtube.com/watch?v=_OKhcOp_dPE)
 ### Credit Card Customers and Churn Rate Oct 2022 - Dec 2022
 - Research project to identify and visualize which of these factors are contributing to customer attrition rate.
 - The analysis presented used four prediction models to analyze customer churn and use machine learning techniques to ensure the highest prediction accuracy.
@@ -30,6 +31,7 @@
 - Generated monthly reports by using extracted and classified data on broad categories; built semantic analyzer to extract data from receipt
 - Building a trained neural network to classify items in receipt to test and implement this model.
 - Skills: Research · Big Data Analytics · Python (Programming Language) · TensorFlowSkills: Research · Big Data Analytics · Python (Programming Language) · TensorFlow
+- [Youtube](https://www.youtube.com/watch?v=YeEsIod4g4s)
 ### Improving Fuel Economy by IoT and Data Analytics Aug 2018 - Sep 2019
 - Performed Big Data analysis to find factors causing inefficient fuel consumption
 - Generated driving patterns using OBD data & eco-driving recommendation models which highlight the specific cause of inefficiency.
