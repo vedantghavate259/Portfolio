@@ -1,18 +1,29 @@
 # Vedant Ghavate
 +1 (747) 305 0428 | vedantghavate259@gmail.com | https://www.linkedin.com/in/vedantghavate | https://github.com/vedantghavate259
-## EDUCATION
-| Degree | Course | University | GPA | Year |
-| --- | --- | --- | --- | -- |
-| Master of Science | Big Data Analytics | San Diego State University | 3.80/4 | Aug 2022 - May 2024 |
-| Bachelor of Engineering | Information Technology | Savitribai Phule Pune University | 7.17/10 | Aug 2016 - May 2020 |
 ## PROJECTS
+### Multivariate Time Series Forecasting of Household Power Consumption Data Sep 2023 - Dec 2023
+- In the wake of higher emphasis on environmental consciousness, household power consumption habits will have the most impact on overall energy consumption. The supply-demand chain of energy is dependent on consumption habits in households, through the day, month, and seasons of the year. Electricity use is changing with time as people become more conscious about their carbon footprint, and with more efficient household technology, the consumption rate is changing. On the other end, the government's switch to renewable energy sources makes the supply-demand gap even tighter.
+- This makes it necessary to analyze the trend of consumption from both a single factor and multifactor perspective that includes temperature, customer price index, electricity prices, and the popularity of energy-saving initiatives. We will build an LSTM (Long Short-Term Memory) Recurrent Neural Network model for the univariate forecasting of power consumption.
+- We also seek to perform a multivariate analysis with a Temporal Fusion transformer to understand the impact of external factors mentioned above on energy consumption.
+### Artificial Intelligence In Agriculture Oct 2023 - Dec 2023
+- Research on the ongoing development and socio-economic effects of application of Artificial intelligence in agriculture.Research on the ongoing development and socio-economic effects of application of Artificial intelligence in agriculture.
+-  Generated video by using Pictory.ai AI tools with the script for the video being our report.
+-  [Youtube](https://www.youtube.com/watch?v=ZSbrPmXX-sc)
+### Effects of Smoking and Drinking on Human Health: A Comprehensive Data Analysis Oct 2023 - Dec 2023
+- Utilizing this dataset we seek to find Drinking and smoking habits have that been extensively proven to have severe long-term effects on health, however, these habits are still on the rise. Analyzing the data, which contains demographic information and specific body signals and blood tests, we seek to understand any demographic-specific body signals that could help us identify smokers and drinkers.
+- We have compared the performance Decision Tree, Random Forest, Naive Bayes, and XGBoost to interpret the most significant body signals in identifying drinkers/smokers.
+###  Trend Analysis of Air Quality in Los Angeles  Apr 2023 - May 2023 
+-  Analyzed the Air Quality Index (AQI) of Long Beach, Los Angeles from 2000 to 2010 using Time Series metrics like ACF, PACF, and
+EACF, rolling forecasting to identify seasonality, and performing an intervention analysis of the data.
+-  Built a predictive SARIMA model with exogenous variables resulting in an accuracy of over ~92%.
+### Corpus-based Study on Differences in Lexical Styles of Genuine and Spam SMS Messages  Oct 2022 - Dec 2022 
+-  The analysis highlighted the distinct lexical identity of spam SMS and genuine SMS using NTLK and over 12 linguistic metrics.
+-  Achieved an accuracy of 88% on the classification model; Generated expense reports using classified data on five categories.
 ### How the War in Ukraine is Affecting the Predictability of the Energy Stock Market Jan 2023 - May 2023
 - In this study, we explore the impact of individual sentiment about the war on the energy stock market. We go through the process of collecting and preprocessing tweets to then implement them into some of the latest developments in topic modeling and sentiment analysis. This includes the financial analysis of the stock data and tying the results of the NLP process into price forecasting.
 - On February 24, 2022, Russia Launched a full-scale military attack on Ukraine. Since the start of this war, there have been more than three thousand civilian casualties and millions of others displaced from their homes (Center for Preventive Action).
-- Being one of the biggest conflicts in recent history, this war is unique in that the voice of the public is easily accessible through social media. This helps us get a closer look at all the major impacts the invasion has had from the perspective of individuals. This war has also had major impacts globally, especially in the energy market due to international sanctions, artificial scarcity, and loss in accessible export. Before the war, Russia was the number one exporter of energy to the global markets. They supplied about 40% of the European Union’s natural gas, a quarter of its oil, and over half its coal in 2019. 
-
+- Being one of the biggest conflicts in recent history, this war is unique in that the voice of the public is easily accessible through social media. This helps us get a closer look at all the major impacts the invasion has had from the perspective of individuals. This war has also had major impacts globally, especially in the energy market due to international sanctions, artificial scarcity, and loss in accessible exports. Before the war, Russia was the number one exporter of energy to the global markets. They supplied about 40% of the European Union’s natural gas, a quarter of its oil, and over half its coal in 2019. 
 ### Analyzing the Impact of the Presence of Mental Wellbeing Facilities on Crime Rates Sep 2022 - Dec 2022
-
 - Visualization project to find the disparity in the availability of mental well-being facilities.
 - An identified pattern of increase in mental well-being facilities leads to an increase in the mindfulness of the people and results in lower hate crime.
 - Identified states with a high occurrence of specific motivation for the hate crime.
@@ -40,13 +51,6 @@ Skills: Research · Big Data Analytics · Python (Programming Language) · Tenso
 - Developed a standardized database management system for hospitals to provide secure access to the database and implemented the web-based user interface using MySQL, PHP, phpMyAdmin, and XAMPP- Developed a standardized database management system for hospitals to provide secure access to the database and implemented the web-based user interface using MySQL, PHP, phpMyAdmin, XAMPP
 ### Viprabharat, Web Development and PHP Programming with Database Management
 - Designed multiple PHP and Python scripts to manage MySQL database, generate automated emails, and process images to improve the overall aesthetic web layout of the project.
-###  Trend Analysis of Air Quality in Los Angeles  Apr 2023 - May 2023 
--  Analyzed the Air Quality Index (AQI) of Long Beach, Los Angeles from 2000 to 2010 using Time Series metrics like ACF, PACF, and
-EACF, rolling forecasting to identify seasonality and performing an intervention analysis of the data.
--  Built a predictive SARIMA model with exogenous variables resulting in an accuracy of over ~92%.
-### Corpus-based Study on Differences in Lexical Styles of Genuine and Spam SMS Messages  Oct 2022 - Dec 2022 
--  The analysis highlighted the distinct lexical identity of spam SMS and genuine SMS using NTLK and over 12 linguistic metrics.
--  Achieved an accuracy of 88% on the classification model; Generated expense reports using classified data on five categories.
 ## PUBLICATIONS, PRESENTATIONS, AND CONFERENCES
 -  Garima Ghatge, Vedant Ghavate, Prithvi Chaudhari, & P. B. Wakhare. (2020)
 Survey of Receipt Identification and Classification using Machine Learning. Our Heritage, Vol-68-Issue-15, January 2020, 278-285
